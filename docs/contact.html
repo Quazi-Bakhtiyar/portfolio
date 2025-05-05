@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Quazi</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="mobile-overlay"></div>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">Quazi</a>
+      </div>
+      <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="contact">
+      <div class="container">
+        <h1 class="section-title">Get In Touch</h1>
+        <p class="section-description">Have a question or want to work together? Feel free to contact me!</p>
+        
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>quazi@example.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>San Francisco, CA</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-share-alt"></i>
+              <div>
+                <h3>Social Media</h3>
+                <div class="social-links-inline">
+                  <a href="https://github.com/Quazi-Bakhtiyar" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://linkedin.com/in/quazi-bakhtiyar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/Quazi-Bakhtiyar" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/quazi-bakhtiyar" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p>&copy; <script>document.write(new Date().getFullYear())</script> Quazi. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html> 
